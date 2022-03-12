@@ -29,6 +29,9 @@ public class Test1 {
 	
 	File src=	((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
 	FileHandler.copy(src, new File("D:\\VcentaryGit\\bing.png"));	
+	
+	//not given continuesly run genkins
+	wd.quit();
 	}
 	
 
